@@ -10,11 +10,11 @@ public class BugHunt {
         int apples = 5; 
         int bananas = 2; 
 
-        System.out.println("Fruit: " + apples + bananas); 
+        System.out.println("Fruit: " + (apples + bananas)); //lägger till paranteser
         System.out.println("Name: " + name); //lägger till + emellan de olika typena så de kan skrivas ut
         System.out.println(age == 25); //true
-        
-        System.out.println("Längd: " + height);
+
+        System.out.println("Längd: " + height); //skriver ut de variabler som inte skrivits ut
         System.out.println("Betyg: " + grade);
         System.out.println("Gillar Java: " + likesJava);
     } 
