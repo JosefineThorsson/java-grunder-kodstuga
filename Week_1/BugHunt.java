@@ -1,3 +1,5 @@
+package Week_1;
+
 public class BugHunt { 
     public static void main(String[] args) { 
         //Träna felsökning genom att läsa kompileringsfel och rätta ett problem i taget.

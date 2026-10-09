@@ -1,3 +1,5 @@
+package Week_1;
+
 public class PersonCard {
     public static void main(String[] args)  {
         //Lägg övningens kod här
