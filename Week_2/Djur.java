@@ -16,7 +16,7 @@ public class Djur {
     }
 
     // Skapa metoden gotLjud() som skriver ut djurets ljud. 
-    void gotljud()  {
+    void gorljud()  {
         System.out.println("Djuret är en " + namn + ", den är " + age + " år gammal, och låter såhär: " + ljud + "!");
     }
 
@@ -25,8 +25,8 @@ public class Djur {
         Djur djur1 = new Djur("hund", 3,"Wooff");
         Djur djur2 = new Djur("katt", 6,"Mjauu");
         
-        djur1.gotljud();
-        djur2.gotljud();
+        djur1.gorljud();
+        djur2.gorljud();
 
     }
 }
